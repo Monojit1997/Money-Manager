@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.unorder-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  list-style-type: none;
+}
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 250px;
+}
+.balance {
+  background-color: #ecfccb;
+  border: #84cc16 solid 2px;
+}
+.income {
+  background-color: #cffafe;
+  border: #06b6d4 solid 2px;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: #7c3aed solid 2px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
+.amount {
+  color: #7e858e;
+  font-weight: normal;
+}
